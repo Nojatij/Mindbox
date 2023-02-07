@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "areaOfFigures", "areaOfFigures\areaOfFigures.csproj", "{F3F59CC8-7A25-4BE1-A307-98FE8B8DC2B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "CircleTest\Tests.csproj", "{B855991A-ED69-4F91-873E-DA4B24AE84CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3F59CC8-7A25-4BE1-A307-98FE8B8DC2B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3F59CC8-7A25-4BE1-A307-98FE8B8DC2B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3F59CC8-7A25-4BE1-A307-98FE8B8DC2B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3F59CC8-7A25-4BE1-A307-98FE8B8DC2B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B855991A-ED69-4F91-873E-DA4B24AE84CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B855991A-ED69-4F91-873E-DA4B24AE84CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B855991A-ED69-4F91-873E-DA4B24AE84CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B855991A-ED69-4F91-873E-DA4B24AE84CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {659E8DA9-47F9-474C-BED6-1D835E53B323}
+	EndGlobalSection
+EndGlobal

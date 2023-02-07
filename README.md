@@ -12,6 +12,7 @@
  
  ### Решение задачи:
 [ТУТ](https://github.com/Nojatij/Mindbox/tree/master/areaOfFigures) находится класс
+
 [ТУТ](https://github.com/Nojatij/Mindbox/tree/master/Tests) находятся тесты
 
 # Задача на SQL
@@ -37,7 +38,7 @@
     INSERT INTO products(products_name, categories_id) VALUES ('Газировка', 1), ('Бумага', 2), ('Ножницы', 2 ), ('Ножницы', 4), ('Ложка', 4), ('Мастер и Маргарита', NULL);
 
 ### Вывод ответа:
-SELECT products_name AS Имя_Продукта, categories_name AS Имя_Категории
-FROM 
-    products LEFT JOIN categories USING(categories_id)
-ORDER BY products_name;
+ SELECT products_name AS Имя_Продукта, categories_name AS Имя_Категории
+ FROM 
+     products LEFT JOIN categories USING(categories_id)
+ ORDER BY products_name;
